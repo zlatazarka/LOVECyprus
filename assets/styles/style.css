@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedgwick+Ave&display=swap');
+
+.header{
+    background-image: url(../img/BG.png);
+    background-size: cover;
+    height: 1107px;
+    
+}
+
+/*КНОПКИ В ХЕДЕРЕ*/
+.header .container .button-header button{ 
+    padding: 16px 24px 16px 24px;
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+    border: none;
+    color: #F87932; 
+    font-size: 20px;
+    font-family: "Lato";
+    font-weight: 700;
+} 
+
+
+.header .had .col{
+    display: flex;
+   justify-content: center;
+   align-items: start;
+}
+
+
+
+/* НАДПИСЬ И РОМБЫ */
+.travelling{
+    display: flex;
+    justify-content: center;
+}
+
+.travelling .container{
+    height: 844px;
+    margin: 0 0;
+}
+.travelling .container .row .col{
+    display: flex;
+    flex-direction: column;
+    height: 844px;
+}
+.travelling .container .row :nth-child(1) .text{
+    font-family: "Merriweather";
+    font-weight: 800;
+    margin-top: 200px;
+    font-size: 80px;
+    line-height: 70px;
+    color: #39BFA7;
+}
+.travelling .container .row :nth-child(1) button{
+    margin-top: 30px;
+    text-transform: uppercase;
+    height: 70px;
+    width: 200px;
+    justify-content: start;
+    background-color: #F87932;
+    color: #FFFFFF;
+    border: none;
+    font-family: "Lato";
+    font-size: 20px;
+}
+.travelling .container .row :nth-child(2){
+    position: relative;
+}
+.travelling .container .row :nth-child(2) :nth-child(1){
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    bottom: 0;
+}
+.travelling .container .row :nth-child(2) :nth-child(2){
+    position: absolute;
+    left: 430px;
+    top: 0;
+    bottom: 0;
+}
+.travelling .container .row :nth-child(2) :nth-child(3){
+    position: absolute;
+    left: 550px;
+    top: 220px;
+    bottom: 0;
+}
+.travelling .container .row :nth-child(2) :nth-child(4){
+    position: absolute;
+    left: 0px;
+    top: 410px;
+    bottom: 0;
+}
+.travelling .container .row :nth-child(2) :nth-child(5){
+    position: absolute;
+    left: 300px;
+    top: 450px;
+    bottom: 0;
+}
+.travelling .container .row :nth-child(2) :nth-child(6){
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    bottom: 0;
+}
+
+
+/* АДВЕНТУРЕ */
+.section-adventure{
+    height: 780px;
+    margin-top: 100px;
+}
+.section-adventure .container{
+    display: flex;
+    flex-direction: row;
+}
+.section-adventure .container .col{
+    justify-content: center;
+}
+.section-adventure .container .col-1{
+    flex-direction: column;
+    width: 50%;
+}
+.section-adventure .container .col-1 :nth-child(2){
+    font-size: 24px;
+    font-family: "Lato";
+    color: #666666;
+
+
+}
+.section-adventure .container .col-1 :nth-child(3){
+    font-size: 60px;
+    font-family: "Lato";
+    color: black;
+    font-weight: 900;
+    line-height: 66px;
+}
+.section-adventure .container .col-1 :nth-child(4){
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: "Lato";
+    color: black;
+    letter-spacing: 5px;
+}
+.section-adventure .container .col-1 .knopka button{
+    margin-top: 200px;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.section-adventure .container{
+    position: relative;
+    margin-top: 100px;
+}
+.section-adventure .route img{
+    width: 830px;
+    position: absolute;
+    left: -170px;
+    top: -162px;
+}
+
+
+/* ВИДЕВО */
+.section-vid{
+    height: 1100px;
+    background-image: url(../img/Mask\ group\ \(1\).png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.section-vid .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-vid .col-12{
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-vid .col-12 :nth-child(1){
+    font-size: 60px;
+    font-family: "Merriweather";
+    color: white;
+    font-weight: 900;
+    line-height: 66px;
+    text-align: center;
+
+}
+.section-vid .col-12 :nth-child(2){
+    font-size: 20px;
+    font-family: "Lato";
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    
+}
+.section-vid .play{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center
+}
+
+.section-vid .container-1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+.section-vid .container-1 .col{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* НОВОСТИ */
+.news .container .images .grid{ 
+    display: grid; 
+    grid-template-rows: repeat(2, 274px); 
+    grid-template-columns: repeat(4, 277px); 
+    grid-column-gap: 32px; 
+    grid-row-gap: 32px; 
+} 
+.news .container .images .grid img:nth-child(1){ 
+    grid-row: 1/2; 
+    grid-column: 1/1; 
+} 
+.news .container .images .grid img:nth-child(2){ 
+    grid-row: 2/2; 
+    grid-column: 2/2; 
+} 
+.news .container .images .grid img:nth-child(3){ 
+    grid-row: 1/1; 
+    grid-column: 3/4; 
+} 
+.news .container .images .grid img:nth-child(4){ 
+    grid-row: 1/1; 
+    grid-column: 2/2; 
+} 
+.news .container .images .grid img:nth-child(5){ 
+    grid-row: 2/2; 
+    grid-column: 3/3; 
+} 
+.news .container .images .grid img:nth-child(6){ 
+    grid-row: 2/2; 
+    grid-column: 4/4; 
+} 
+.news .container{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+.news .container .button{ 
+    margin-top: 62px; 
+    width: 206px; 
+    height: 62px; 
+    border: 2px solid #222222; 
+    font-size: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+.news .container .button:hover{ 
+    background-color: #F87932; 
+    color: #FFFFFF; 
+    border: none; 
+} 
+.news .container h1{ 
+    font-size: 48px; 
+    color: #222222; 
+    margin-bottom: 15px; 
+    font-family: "Montserrat";
+    font-weight: 700;
+} 
+.news .container h3{ 
+    font-size: 32px; 
+    color: #222222; 
+    font-family: "Montserrat";
+    font-weight: 600;
+} 
+.news .container .Group{ 
+    height: 19px; 
+    width: 157px; 
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+} 
+.news .container p{ 
+    font-size: 16px; 
+    color: #666666; 
+    margin-bottom: 62px; 
+    font-family: "Lato";
+    letter-spacing: 5px;
+} 
+.news{ 
+    margin-bottom: 62px; 
+}
+
+/* ЛИСТОВКАКАКАТО */
+.trip{ 
+    background: linear-gradient(rgba(0, 0, 0, 0.505), rgba(0, 0, 0, 0.505)), url(../img/d0b72ee420f28983be802a2134a105bd.jpg); 
+    background-size: cover; 
+    height: 1901px; 
+    display: flex; 
+    align-items: center; 
+} 
+.trip .border{ 
+    height: 1642px; 
+    border: 5px solid #FFFFFF !important; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+.trip .border .titul{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 35%; 
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+} 
+.trip .border .titul p{ 
+    font-size: 16px; 
+    color: #EEEEEE; 
+    font-weight: 400; 
+} 
+.trip .border .titul img{ 
+    width: 157px; 
+    height: 19px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+} 
+.trip .border .titul h1{ 
+    font-size: 60px; 
+    color: #FFFFFF; 
+    font-family: "Merriweather"; 
+    font-weight: 900; 
+} 
+.trip .border .main{ 
+    display: flex; 
+    width: 70%; 
+    justify-content: space-between; 
+} 
+.trip .border .main .events{ 
+    display: flex; 
+} 
+.trip .border .main .block:nth-child(1){ 
+    width: 45%; 
+    color: #39BFA7; 
+} 
+.trip .border .main .block:nth-child(1) h2{ 
+    font-size: 60px; 
+    text-align: end !important; 
+    font-family: "Sedgwick Ave"; 
+    font-style: italic; 
+    font-weight: 400; 
+} 
+.trip .border .main .block:nth-child(2){ 
+    width: 40%; 
+} 
+.trip .border .main .block .events .col:nth-child(1){ 
+    flex: 0.5 0 0%; 
+} 
+.trip .border .main .block .events h2{ 
+    font-size: 80px; 
+    color: #FFFFFF; 
+    font-family: "Sedgwick Ave"; 
+    font-weight: 400; 
+} 
+.trip .border .main .events h3{ 
+    font-size: 28px; 
+    color: #969696; 
+    font-family: "Sedgwick Ave"; 
+    font-weight: 400; 
+} 
+.trip .border .main .events .col h4{ 
+    font-size: 40px; 
+    color: #DDDDDD; 
+    font-family: "Merriweather"; 
+    font-weight: 900; 
+}
+.trip .border .button{ 
+    text-decoration: none;
+    background: #F87932; 
+    color: #FFFFFF; 
+    border: none; 
+    padding: 10px;
+}
+
+.section-form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-form .container .titul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.section-form .container .titul img{
+    width: 157px;
+}
+.section-form button{
+    background-color: #39BFA7;
+    border: none;
+}
+
+
+/* ТЕБЯ СКЕЛЕТ ПОЦЕЛОВАЛ */
+.footer .container{ 
+    width: 70%; 
+} 
+.footer .container .col img{ 
+    width: 76px; 
+} 
+.down_footer .container{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+.footer{ 
+    display: flex; 
+    color: #FFFFFF; 
+    height: 302px; 
+} 
+.footer h6{ 
+    font-size: 20px; 
+} 
+.footer p{ 
+    font-size: 16px; 
+} 
+.down_footer{ 
+    display: flex; 
+    flex-direction: column; 
+    height: 268px; 
+    justify-content: center; 
+} 
+.down_footer .container p{ 
+    font-size: 16px; 
+    color: #BBBBBB; 
+} 
+footer .section{ 
+    background-color: #151C21; 
+} 
+ 
+.footer .container{ 
+    display: flex; 
+    align-items: center; 
+} 
+ 
+footer .container .logo{ 
+    width: 8%; 
+    display: flex; 
+    justify-content: space-between; 
+}
